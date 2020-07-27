@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeSwitch Component should render correctly 1`] = `
+<ReactSwitch
+  activeBoxShadow="0 0 2px 3px #3bf"
+  boxShadow={null}
+  checked={false}
+  checkedIcon={
+    <i
+      className="icon-moon"
+    />
+  }
+  className="text-black border border-black dark:text-white dark:border-gray-500"
+  disabled={false}
+  height={28}
+  offColor="#f7fafc"
+  offHandleColor="#1a202c"
+  onChange={[Function]}
+  onColor="#1a202c"
+  onHandleColor="#f7fafc"
+  uncheckedIcon={
+    <i
+      className="icon-sun"
+    />
+  }
+  width={56}
+/>
+`;

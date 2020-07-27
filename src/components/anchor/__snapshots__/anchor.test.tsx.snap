@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Anchor Component should match anchor snapshot if children is not a string 1`] = `
+<Link
+  href="/"
+>
+  <a
+    className="text-white"
+  >
+    <span>
+      Some text
+    </span>
+  </a>
+</Link>
+`;
+
+exports[`Anchor Component should match anchor snapshot if props.active 1`] = `
+<Link
+  href="/"
+>
+  <div
+    className="inline-block"
+  >
+    <a
+      className="text-red-900 dark:text-red-300 hover:bg-red-300 hover:text-black cursor-pointer transition ease-in duration-150 underline"
+      href="/"
+      target=""
+    >
+      lorem
+    </a>
+  </div>
+</Link>
+`;
+
+exports[`Anchor Component should match anchor snapshot if props.block 1`] = `
+<Link
+  href="/"
+>
+  <div
+    className="block"
+  >
+    <a
+      className="text-red-900 dark:text-red-300 hover:bg-red-300 hover:text-black cursor-pointer transition ease-in duration-150"
+      href="/"
+      target=""
+    >
+      lorem
+    </a>
+  </div>
+</Link>
+`;
+
+exports[`Anchor Component should match anchor snapshot if props.className 1`] = `
+<Link
+  href="/"
+>
+  <div
+    className="inline-block"
+  >
+    <a
+      className="text-white cursor-pointer transition ease-in duration-150"
+      href="/"
+      target=""
+    >
+      lorem
+    </a>
+  </div>
+</Link>
+`;
+
+exports[`Anchor Component should match anchor snapshot if props.external 1`] = `
+<div
+  className="inline-block"
+>
+  <a
+    className="text-red-900 dark:text-red-300 hover:bg-red-300 hover:text-black cursor-pointer transition ease-in duration-150"
+    href="/"
+    target="_blank"
+  >
+    lorem
+  </a>
+</div>
+`;
+
+exports[`Anchor Component should match anchor snapshot with only href 1`] = `
+<Link
+  href="/"
+>
+  <div
+    className="inline-block"
+  >
+    <a
+      className="text-red-900 dark:text-red-300 hover:bg-red-300 hover:text-black cursor-pointer transition ease-in duration-150"
+      href="/"
+      target=""
+    >
+      lorem
+    </a>
+  </div>
+</Link>
+`;

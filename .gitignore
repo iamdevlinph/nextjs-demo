@@ -1,0 +1,10 @@
+node_modules
+.next
+
+.now
+
+yarn-error.log
+
+coverage
+
+.vercel

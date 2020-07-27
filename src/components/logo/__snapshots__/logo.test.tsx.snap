@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo Component should match logo snapshot if no props provided 1`] = `
+<img
+  alt="logo"
+  className=""
+  src="/images/logo.svg"
+/>
+`;
+
+exports[`Logo Component should match logo snapshot if props.className 1`] = `
+<img
+  alt="logo"
+  className="block"
+  src="/images/logo.svg"
+/>
+`;
+
+exports[`Logo Component should match logo snapshot if props.isSquare 1`] = `
+<img
+  alt="logo"
+  className=""
+  src="/images/logo.svg"
+/>
+`;
+
+exports[`Logo Component should match logo snapshot if props.isSquare={false} 1`] = `
+<img
+  alt="logo"
+  className=""
+  src="/images/logo-no-margin.svg"
+/>
+`;

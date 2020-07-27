@@ -1,0 +1,21 @@
+{
+  "name": "nextjs-demo.iamdevlinph.vercel.app",
+  "short_name": "nextjs-demo.iamdevlinph.vercel.app",
+  "description": "Demo App",
+  "display": "fullscreen",
+  "start_url": "/?source=pwa",
+  "theme_color": "#BA0202",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
